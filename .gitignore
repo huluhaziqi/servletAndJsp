@@ -5,7 +5,7 @@
 *.log
 *.log.*
 target
-out
+out/
 *.cache
 *.lock
 .DS_Store
