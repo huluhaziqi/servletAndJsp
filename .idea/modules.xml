@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app01a/app01a.iml" filepath="$PROJECT_DIR$/app01a/app01a.iml" />
       <module fileurl="file://$PROJECT_DIR$/app01b/app01b.iml" filepath="$PROJECT_DIR$/app01b/app01b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app01c/app01c.iml" filepath="$PROJECT_DIR$/app01c/app01c.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app01cc/app01cc.iml" filepath="$PROJECT_DIR$/app01cc/app01cc.iml" />
       <module fileurl="file://$PROJECT_DIR$/servletAndJsp.iml" filepath="$PROJECT_DIR$/servletAndJsp.iml" />
     </modules>
   </component>

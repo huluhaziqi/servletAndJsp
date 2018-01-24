@@ -150,11 +150,11 @@ public class FormServlet extends HttpServlet {
         printWriter.print("<div style='border:1px solid #ddd; margin-top:40px,font-size:90%'>");
         printWriter.print("debug info <br/>");
         Enumeration<String> p = req.getParameterNames();
-        while (p.hasMoreElements()){
+        while (p.hasMoreElements()) {
             String name = p.nextElement();
             printWriter.print(name + " :");
             String[] paramValues = req.getParameterValues(name);
-            for(String paramValue : paramValues){
+            for (String paramValue : paramValues) {
                 printWriter.print(paramValue + "<br/>");
             }
         }
