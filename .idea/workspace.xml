@@ -40,11 +40,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app01cc/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+              <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -54,21 +64,25 @@
         <entry file="jar:///Library/apache-tomcat-9.0.0.M18/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="230" column="35" lean-forward="true" selection-start-line="230" selection-start-column="35" selection-end-line="230" selection-end-column="35" />
+              <caret line="230" column="35" lean-forward="false" selection-start-line="230" selection-start-column="35" selection-end-line="230" selection-end-column="35" />
               <folding>
-                <element signature="e#1883#1884#0" expanded="true" />
-                <element signature="e#1909#1910#0" expanded="true" />
+                <marker date="1488986526000" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1488986526000" expanded="false" signature="142:572" ph="..." />
+                <marker date="1488986526000" expanded="true" signature="1431:1438" ph="{}" />
+                <marker date="1488986526000" expanded="true" signature="1552:1822" ph="{...}" />
+                <marker date="1488986526000" expanded="true" signature="1882:1893" ph=" { " />
+                <marker date="1488986526000" expanded="true" signature="1904:1910" ph=" }" />
+                <marker date="1488986526000" expanded="true" signature="2025:2309" ph="{...}" />
+                <marker date="1488986526000" expanded="true" signature="2424:2695" ph="{...}" />
+                <marker date="1488986526000" expanded="true" signature="2809:3079" ph="{...}" />
+                <marker date="1488986526000" expanded="true" signature="3196:3469" ph="{...}" />
+                <marker date="1488986526000" expanded="true" signature="3533:4217" ph="{...}" />
+                <marker date="1488986526000" expanded="true" signature="4335:6891" ph="{...}" />
+                <marker date="1488986526000" expanded="true" signature="7007:7743" ph="{...}" />
+                <marker date="1488986526000" expanded="true" signature="7859:9523" ph="{...}" />
+                <marker date="1488986526000" expanded="true" signature="9608:9798" ph="{...}" />
+                <marker date="1488986526000" expanded="true" signature="9902:10261" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app01a.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app01a/app01a.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -77,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/app01cc/src/app01c/SimpleServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -158,6 +172,7 @@
         <option value="$PROJECT_DIR$/app01c/src/app01c/SimpleServlet.java" />
         <option value="$PROJECT_DIR$/app01c/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/app01cc/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -216,62 +231,7 @@
             <path>
               <item name="servletAndJsp" type="b2602c69:ProjectViewProjectNode" />
               <item name="servletAndJsp" type="462c0819:PsiDirectoryNode" />
-              <item name="app01a" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="servletAndJsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="servletAndJsp" type="462c0819:PsiDirectoryNode" />
-              <item name="app01a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="servletAndJsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="servletAndJsp" type="462c0819:PsiDirectoryNode" />
-              <item name="app01a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app01a" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="servletAndJsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="servletAndJsp" type="462c0819:PsiDirectoryNode" />
-              <item name="app01c" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="servletAndJsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="servletAndJsp" type="462c0819:PsiDirectoryNode" />
-              <item name="app01c" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="servletAndJsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="servletAndJsp" type="462c0819:PsiDirectoryNode" />
-              <item name="app01cc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="servletAndJsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="servletAndJsp" type="462c0819:PsiDirectoryNode" />
-              <item name="app01cc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="servletAndJsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="servletAndJsp" type="462c0819:PsiDirectoryNode" />
-              <item name="app01cc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app01c" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="servletAndJsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="servletAndJsp" type="462c0819:PsiDirectoryNode" />
-              <item name="app01cc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="servletAndJsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="servletAndJsp" type="462c0819:PsiDirectoryNode" />
-              <item name="app01cc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="servletAndJsp" type="b2602c69:ProjectViewProjectNode" />
@@ -298,14 +258,15 @@
     <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/untitled/src" />
+      <recent name="$PROJECT_DIR$/app01a/src/app01a" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app01cc/web/WEB-INF" />
       <recent name="$PROJECT_DIR$/app01cc/web" />
       <recent name="$PROJECT_DIR$/untitled/META-INF" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/untitled/src" />
-      <recent name="$PROJECT_DIR$/app01a/src/app01a" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -597,12 +558,12 @@
       <option name="presentableId" value="Default" />
       <updated>1515392029325</updated>
       <workItem from="1515392032935" duration="16410000" />
-      <workItem from="1516764477206" duration="6617000" />
+      <workItem from="1516764477206" duration="6932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23027000" />
+    <option name="totallyTimeSpent" value="23342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="807" extended-state="0" />
@@ -929,10 +890,24 @@
     <entry file="jar:///Library/apache-tomcat-9.0.0.M18/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="230" column="35" lean-forward="true" selection-start-line="230" selection-start-column="35" selection-end-line="230" selection-end-column="35" />
+          <caret line="230" column="35" lean-forward="false" selection-start-line="230" selection-start-column="35" selection-end-line="230" selection-end-column="35" />
           <folding>
-            <element signature="e#1883#1884#0" expanded="true" />
-            <element signature="e#1909#1910#0" expanded="true" />
+            <marker date="1488986526000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1488986526000" expanded="false" signature="142:572" ph="..." />
+            <marker date="1488986526000" expanded="true" signature="1431:1438" ph="{}" />
+            <marker date="1488986526000" expanded="true" signature="1552:1822" ph="{...}" />
+            <marker date="1488986526000" expanded="true" signature="1882:1893" ph=" { " />
+            <marker date="1488986526000" expanded="true" signature="1904:1910" ph=" }" />
+            <marker date="1488986526000" expanded="true" signature="2025:2309" ph="{...}" />
+            <marker date="1488986526000" expanded="true" signature="2424:2695" ph="{...}" />
+            <marker date="1488986526000" expanded="true" signature="2809:3079" ph="{...}" />
+            <marker date="1488986526000" expanded="true" signature="3196:3469" ph="{...}" />
+            <marker date="1488986526000" expanded="true" signature="3533:4217" ph="{...}" />
+            <marker date="1488986526000" expanded="true" signature="4335:6891" ph="{...}" />
+            <marker date="1488986526000" expanded="true" signature="7007:7743" ph="{...}" />
+            <marker date="1488986526000" expanded="true" signature="7859:9523" ph="{...}" />
+            <marker date="1488986526000" expanded="true" signature="9608:9798" ph="{...}" />
+            <marker date="1488986526000" expanded="true" signature="9902:10261" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -948,7 +923,7 @@
     <entry file="file://$PROJECT_DIR$/app01cc/src/app01c/SimpleServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -964,7 +939,15 @@
     <entry file="file://$PROJECT_DIR$/app01cc/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding />
         </state>
       </provider>
