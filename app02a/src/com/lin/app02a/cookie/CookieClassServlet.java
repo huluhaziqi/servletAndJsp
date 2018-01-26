@@ -2,10 +2,7 @@ package com.lin.app02a.cookie;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.*;
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -17,6 +14,8 @@ public class CookieClassServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        HttpSession session = req.getSession();
+        session.setMaxInactiveInterval(10);
         Cookie[] cookies = req.getCookies();
         Cookie titleFontSize = null;
         Cookie maxRecord = null;
@@ -60,7 +59,8 @@ public class CookieClassServlet extends HttpServlet {
                 "<br/>" + maxRecord.getValue() +
                 "<br/>" + titleStyle.getValue() +
                 "<br/>" + titleWeight.getValue() +
-                "<br/>" + titleLocation.getValue() +
+                "<br/>" + session.getId() +
+                "<br/>" + session.getMaxInactiveInterval() +
                 "<div>here are some method </div>" +
                 "<ul>");
         for (int i = 0; i < maxR; i++) {
@@ -70,6 +70,8 @@ public class CookieClassServlet extends HttpServlet {
                 "</ul>" +
                         "</head>" +
                         "</html>");
+        System.out.println("session id :" + session.getId());
+        System.out.println("session maxInactiveInterval :" + session.getMaxInactiveInterval());
     }
 
     @Override
