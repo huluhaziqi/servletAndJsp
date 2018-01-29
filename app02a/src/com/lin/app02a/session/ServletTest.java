@@ -167,6 +167,4 @@ public class ServletTest extends HttpServlet {
             e.printStackTrace();
         }
     }
-
-
 }

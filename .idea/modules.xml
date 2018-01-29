@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/app01c/app01c.iml" filepath="$PROJECT_DIR$/app01c/app01c.iml" />
       <module fileurl="file://$PROJECT_DIR$/app01cc/app01cc.iml" filepath="$PROJECT_DIR$/app01cc/app01cc.iml" />
       <module fileurl="file://$PROJECT_DIR$/app02a/app02a.iml" filepath="$PROJECT_DIR$/app02a/app02a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app03a/app03a.iml" filepath="$PROJECT_DIR$/app03a/app03a.iml" />
       <module fileurl="file://$PROJECT_DIR$/servletAndJsp.iml" filepath="$PROJECT_DIR$/servletAndJsp.iml" />
     </modules>
   </component>
