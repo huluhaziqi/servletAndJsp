@@ -10,7 +10,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @WebServlet(urlPatterns = {"/books"})
 public class BookServlet extends HttpServlet {
@@ -31,7 +33,12 @@ public class BookServlet extends HttpServlet {
         books.add(book1);
         books.add(book2);
         books.add(book3);
+        Map<String,String[]> bigCities = new HashMap<>();
+        bigCities.put("Australia",new String[]{"sydney","melbourne","perth"});
+        bigCities.put("New Zealand",new String[]{"auckland","christchurch","wellington"});
+        bigCities.put("Indonesia",new String[]{"jakarta","surabaya","medan"});
         req.setAttribute("books", books);
+        req.setAttribute("bigCities",bigCities);
         RequestDispatcher dispatcher = req.getRequestDispatcher("books.jsp");
         dispatcher.forward(req, resp);
     }
