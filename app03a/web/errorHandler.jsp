@@ -14,7 +14,22 @@
 ${pageContext.session.id} <br/>
 ${pageContext.request.servletPath} <br/>
 ${pageContext["request"]["servletPath"]} <br/>
-${header.values().size()};
+${header["accept-language"]};
+<br/>
+${header.connection};
+${headerValues["accept-language"][0]}
+<br/>
+${cookie.JSESSIONID.value}
+<br/>
+${cookie.JSESSIONID.path}
+
+<br/>
+${cookie.JSESSIONID == null ? "you have not JSESSIONID" : "you have JSESSIONID "}
+<br/>
+${empty today}
+<br/>
+<%--${applicationScope.}--%>
+${today}
 error has occurred <br/>
 </body>
 </html>
